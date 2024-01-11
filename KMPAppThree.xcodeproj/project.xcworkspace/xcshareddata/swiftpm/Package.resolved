@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "getfixkmp",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/bryancaromio/GetFixKMP",
+      "state" : {
+        "branch" : "main",
+        "revision" : "9e3701f8ecf27195c76913bf67599c9c47f24342"
+      }
+    }
+  ],
+  "version" : 2
+}

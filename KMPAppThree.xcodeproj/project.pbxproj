@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		119CEE8E2B50AE7B006C84EB /* KMPCore in Frameworks */ = {isa = PBXBuildFile; productRef = 119CEE8D2B50AE7B006C84EB /* KMPCore */; };
+		11C5A84F2B50AF3D008A46E1 /* KMPCoreDev in Frameworks */ = {isa = PBXBuildFile; productRef = 11C5A84E2B50AF3D008A46E1 /* KMPCoreDev */; };
+		11C5A8512B50AF42008A46E1 /* KMPResources in Frameworks */ = {isa = PBXBuildFile; productRef = 11C5A8502B50AF42008A46E1 /* KMPResources */; };
+		11C5A8532B50AF4A008A46E1 /* KMPResources in Frameworks */ = {isa = PBXBuildFile; productRef = 11C5A8522B50AF4A008A46E1 /* KMPResources */; };
+		11F1094D2B4ECFB200A07432 /* KMPAppThreeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F1094C2B4ECFB200A07432 /* KMPAppThreeApp.swift */; };
+		11F1094F2B4ECFB200A07432 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F1094E2B4ECFB200A07432 /* ContentView.swift */; };
+		11F109512B4ECFB300A07432 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11F109502B4ECFB300A07432 /* Assets.xcassets */; };
+		11F109542B4ECFB300A07432 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11F109532B4ECFB300A07432 /* Preview Assets.xcassets */; };
+		11F1095C2B4ECFEA00A07432 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F1094E2B4ECFB200A07432 /* ContentView.swift */; };
+		11F1095D2B4ECFEA00A07432 /* KMPAppThreeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F1094C2B4ECFB200A07432 /* KMPAppThreeApp.swift */; };
+		11F109602B4ECFEA00A07432 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11F109532B4ECFB300A07432 /* Preview Assets.xcassets */; };
+		11F109612B4ECFEA00A07432 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11F109502B4ECFB300A07432 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		11F109492B4ECFB200A07432 /* KMPAppThree.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KMPAppThree.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		11F1094C2B4ECFB200A07432 /* KMPAppThreeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KMPAppThreeApp.swift; sourceTree = "<group>"; };
+		11F1094E2B4ECFB200A07432 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		11F109502B4ECFB300A07432 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		11F109532B4ECFB300A07432 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		11F109652B4ECFEA00A07432 /* MultipleTargets_Dev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultipleTargets_Dev.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		11F109462B4ECFB200A07432 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				119CEE8E2B50AE7B006C84EB /* KMPCore in Frameworks */,
+				11C5A8532B50AF4A008A46E1 /* KMPResources in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11F1095E2B4ECFEA00A07432 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11C5A84F2B50AF3D008A46E1 /* KMPCoreDev in Frameworks */,
+				11C5A8512B50AF42008A46E1 /* KMPResources in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11C5A84D2B50AF3D008A46E1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		11F109402B4ECFB200A07432 = {
+			isa = PBXGroup;
+			children = (
+				11F1094B2B4ECFB200A07432 /* KMPAppThree */,
+				11F1094A2B4ECFB200A07432 /* Products */,
+				11C5A84D2B50AF3D008A46E1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		11F1094A2B4ECFB200A07432 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				11F109492B4ECFB200A07432 /* KMPAppThree.app */,
+				11F109652B4ECFEA00A07432 /* MultipleTargets_Dev.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		11F1094B2B4ECFB200A07432 /* KMPAppThree */ = {
+			isa = PBXGroup;
+			children = (
+				11F1094C2B4ECFB200A07432 /* KMPAppThreeApp.swift */,
+				11F1094E2B4ECFB200A07432 /* ContentView.swift */,
+				11F109502B4ECFB300A07432 /* Assets.xcassets */,
+				11F109522B4ECFB300A07432 /* Preview Content */,
+			);
+			path = KMPAppThree;
+			sourceTree = "<group>";
+		};
+		11F109522B4ECFB300A07432 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				11F109532B4ECFB300A07432 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		11F109482B4ECFB200A07432 /* KMPAppThree */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11F109572B4ECFB300A07432 /* Build configuration list for PBXNativeTarget "KMPAppThree" */;
+			buildPhases = (
+				11F109452B4ECFB200A07432 /* Sources */,
+				11F109462B4ECFB200A07432 /* Frameworks */,
+				11F109472B4ECFB200A07432 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KMPAppThree;
+			packageProductDependencies = (
+				119CEE8D2B50AE7B006C84EB /* KMPCore */,
+				11C5A8522B50AF4A008A46E1 /* KMPResources */,
+			);
+			productName = KMPAppThree;
+			productReference = 11F109492B4ECFB200A07432 /* KMPAppThree.app */;
+			productType = "com.apple.product-type.application";
+		};
+		11F1095A2B4ECFEA00A07432 /* MultipleTargets_Dev */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11F109622B4ECFEA00A07432 /* Build configuration list for PBXNativeTarget "MultipleTargets_Dev" */;
+			buildPhases = (
+				11F1095B2B4ECFEA00A07432 /* Sources */,
+				11F1095E2B4ECFEA00A07432 /* Frameworks */,
+				11F1095F2B4ECFEA00A07432 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MultipleTargets_Dev;
+			packageProductDependencies = (
+				11C5A84E2B50AF3D008A46E1 /* KMPCoreDev */,
+				11C5A8502B50AF42008A46E1 /* KMPResources */,
+			);
+			productName = KMPAppThree;
+			productReference = 11F109652B4ECFEA00A07432 /* MultipleTargets_Dev.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		11F109412B4ECFB200A07432 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					11F109482B4ECFB200A07432 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = 11F109442B4ECFB200A07432 /* Build configuration list for PBXProject "KMPAppThree" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 11F109402B4ECFB200A07432;
+			packageReferences = (
+				119CEE8C2B50AE7B006C84EB /* XCRemoteSwiftPackageReference "GetFixKMP" */,
+			);
+			productRefGroup = 11F1094A2B4ECFB200A07432 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				11F109482B4ECFB200A07432 /* KMPAppThree */,
+				11F1095A2B4ECFEA00A07432 /* MultipleTargets_Dev */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		11F109472B4ECFB200A07432 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11F109542B4ECFB300A07432 /* Preview Assets.xcassets in Resources */,
+				11F109512B4ECFB300A07432 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11F1095F2B4ECFEA00A07432 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11F109602B4ECFEA00A07432 /* Preview Assets.xcassets in Resources */,
+				11F109612B4ECFEA00A07432 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		11F109452B4ECFB200A07432 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11F1094F2B4ECFB200A07432 /* ContentView.swift in Sources */,
+				11F1094D2B4ECFB200A07432 /* KMPAppThreeApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11F1095B2B4ECFEA00A07432 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11F1095C2B4ECFEA00A07432 /* ContentView.swift in Sources */,
+				11F1095D2B4ECFEA00A07432 /* KMPAppThreeApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		11F109552B4ECFB300A07432 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		11F109562B4ECFB300A07432 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		11F109582B4ECFB300A07432 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"KMPAppThree/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fractalteamio.KMPAppThree;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		11F109592B4ECFB300A07432 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"KMPAppThree/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fractalteamio.KMPAppThree;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		11F109632B4ECFEA00A07432 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"KMPAppThree/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_SWIFT_FLAGS = "-DDEV";
+				PRODUCT_BUNDLE_IDENTIFIER = fractalteamio.KMPAppThree;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		11F109642B4ECFEA00A07432 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"KMPAppThree/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_SWIFT_FLAGS = "-DDEV";
+				PRODUCT_BUNDLE_IDENTIFIER = fractalteamio.KMPAppThree;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		11F109442B4ECFB200A07432 /* Build configuration list for PBXProject "KMPAppThree" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11F109552B4ECFB300A07432 /* Debug */,
+				11F109562B4ECFB300A07432 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11F109572B4ECFB300A07432 /* Build configuration list for PBXNativeTarget "KMPAppThree" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11F109582B4ECFB300A07432 /* Debug */,
+				11F109592B4ECFB300A07432 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11F109622B4ECFEA00A07432 /* Build configuration list for PBXNativeTarget "MultipleTargets_Dev" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11F109632B4ECFEA00A07432 /* Debug */,
+				11F109642B4ECFEA00A07432 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		119CEE8C2B50AE7B006C84EB /* XCRemoteSwiftPackageReference "GetFixKMP" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/bryancaromio/GetFixKMP";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		119CEE8D2B50AE7B006C84EB /* KMPCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 119CEE8C2B50AE7B006C84EB /* XCRemoteSwiftPackageReference "GetFixKMP" */;
+			productName = KMPCore;
+		};
+		11C5A84E2B50AF3D008A46E1 /* KMPCoreDev */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 119CEE8C2B50AE7B006C84EB /* XCRemoteSwiftPackageReference "GetFixKMP" */;
+			productName = KMPCoreDev;
+		};
+		11C5A8502B50AF42008A46E1 /* KMPResources */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 119CEE8C2B50AE7B006C84EB /* XCRemoteSwiftPackageReference "GetFixKMP" */;
+			productName = KMPResources;
+		};
+		11C5A8522B50AF4A008A46E1 /* KMPResources */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 119CEE8C2B50AE7B006C84EB /* XCRemoteSwiftPackageReference "GetFixKMP" */;
+			productName = KMPResources;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 11F109412B4ECFB200A07432 /* Project object */;
+}
